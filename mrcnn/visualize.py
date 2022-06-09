@@ -167,7 +167,7 @@ def display_instances(image, boxes, masks, class_ids, class_names,
     print("save file...")
     plt.savefig('%s.png' % (str(uuid.uuid4())), bbox_inches='tight')
     if auto_show:
-        plt.hsow()
+        plt.show()
 
 
 def display_differences(image,
